@@ -3,11 +3,6 @@ import style from './Header.module.css'
 const Header = () => {
   return (
   <> 
-    <picture>
-      <source media="(max-width: 639px)" srcSet='../public/image/banner-tratamento-obesidade-480x380.jpg'></source>
-      <source media="(min-width: 640px) and (max-width: 768px)"  srcSet="../public/image/banner-tratamento-obesidade-768x240.jpg"></source>
-      <img src='../public/image/banner-tratamento-obesidade-1600x380.jpg'></img>
-    </picture>
     <div className="container">
       <header>
         <h1 className={style.titulo}>Cálculo IMC</h1>
