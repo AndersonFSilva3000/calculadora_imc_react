@@ -1,0 +1,36 @@
+.tabela {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-collapse: collapse;
+}
+
+.tabela__titulo {
+  background-color: #1f5eaf;
+  color: #fff;
+  font-weight: bolder;
+  padding: .5rem 0;
+  border-radius: .5rem;
+  text-align: start;
+  padding-left: 1.5rem;
+}
+
+thead tr th {
+  color: var(--corPrincipalTextos);
+  padding: 8px 0;
+  border-bottom: 1px solid #dee2e7;
+}
+
+tbody tr td{
+  border-bottom: 1px solid #dee2e7;
+  color: var(--corLinhas);
+  text-align: center;
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+.acerto {
+  background-color: rgb(235, 253, 234);
+}

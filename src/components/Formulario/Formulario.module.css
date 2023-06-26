@@ -1,0 +1,40 @@
+.formulario {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--corPrincipalTextos);
+}
+
+input {
+  margin: 0 .5rem;
+  border-bottom: 1px solid var(--corLinhas);
+  max-width: 3.5rem;
+  padding: .2rem;
+}
+
+.botao {
+  color: #fff;
+  background-color: var(--corPrincipalTextos);
+  padding: .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.botao:hover {
+  opacity: .8;
+}
+
+.containerResultado {
+  background-color: var(--corPrincipalTextos);
+  color: #fff;
+  font-weight: bold;
+  max-width: 200px;
+  padding: 1rem;
+  border-radius: .5rem;
+  margin: 0 auto;
+}
+
+.resultado {
+  font-weight: normal;
+  margin-left: .3rem;
+}

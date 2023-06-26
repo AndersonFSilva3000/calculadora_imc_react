@@ -1,0 +1,9 @@
+.titulo {
+  color: var(--corPrincipalTextos);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: .5rem;
+}
